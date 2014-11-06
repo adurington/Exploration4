@@ -39,7 +39,8 @@
 			});
 			$('#standings').DataTable( {
 				paging: true,
-				scrollY: 400
+				scrollY: 400,
+				stateSave: true
 			} );
 		</script>
 	</body>
