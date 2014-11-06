@@ -40,7 +40,8 @@
 			$('#standings').DataTable( {
 				paging: true,
 				scrollY: 400,
-				stateSave: true
+				stateSave: true,
+				stateDuration: 300
 			} );
 		</script>
 	</body>
