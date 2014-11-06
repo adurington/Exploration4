@@ -24,7 +24,7 @@
 				<tr>
 					<td><? echo ($i + 1); ?> </td>
 					<td><? echo rand(0, 50); ?> </td>
-					<td><? echo (rand(1000, 200) % rand(0,5)); ?> </td>
+					<td><? echo rand(1000, 2000); ?> </td>
 					<td><? echo (150 - $i); ?> </td>
 				</tr>
 				<?
