@@ -38,8 +38,8 @@
 					$('#standings').DataTable();
 			});
 			$('#standings').DataTable( {
-				paging: true
-				
+				paging: true,
+				scrollY: 400
 			} );
 		</script>
 	</body>
